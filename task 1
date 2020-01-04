@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+	string a,b;
+    cin>>a;
+    cin>>b;
+    int lenght_of_a = a.length();
+    int lenght_of_b = b.length();
+    string c = a+b; 
+    cout<<lenght_of_a<<" "<<lenght_of_b<<endl;
+    cout<<c<<endl;
+    char z = a[0];
+    a[0] = b[0];
+    b[0] = z;
+    cout<<a<<" "<<b<<endl;
+    
+
+
+
+    return 0;
+}
